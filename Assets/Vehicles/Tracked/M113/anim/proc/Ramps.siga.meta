@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E03FC4C4D83B2E5E}Assets/Vehicles/Tracked/M113/anim/proc/Ramps.siga"
+ Configurations {
+  ProcAnimSignalResourceClass PC {
+  }
+  ProcAnimSignalResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimSignalResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimSignalResourceClass PS4 : PC {
+  }
+  ProcAnimSignalResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EB7D80A1A2B385F8}Assets/Vehicles/Tracked/M113/VehParts/Seats/Data/M113_base_interior_Components_2.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

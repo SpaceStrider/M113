@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4115C37B365943AD}Assets/Vehicles/Tracked/M113/VehParts/Turret/Data/M113_base_exterior_Body.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

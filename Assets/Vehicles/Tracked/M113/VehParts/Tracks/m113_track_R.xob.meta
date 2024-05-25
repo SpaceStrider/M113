@@ -1,0 +1,280 @@
+MetaFileClass {
+ Name "{2E79544BADA342C6}Assets/Vehicles/Tracked/M113/VehParts/Tracks/m113_track_R.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E7C6EB71714F5AA}" {
+     SourceMaterial "m113_tracks_flat_R"
+     AssignedMaterial "{7CFF0939E9C90D10}Assets/Vehicles/Tracked/M113/Data/m113_tracks_flat_R.emat"
+    }
+    MaterialAssignClass "{5E7CC62294B30D62}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{5DE2524C7AFE3E15}Assets/Vehicles/Tracked/M113/VehParts/Tracks/Data/m113_hull.emat"
+    }
+    MaterialAssignClass "{5E7CC62294B30D8E}" {
+     SourceMaterial "M113_base_interior_Components_1"
+     AssignedMaterial "{36E9EDDED1380E7E}Assets/Vehicles/Tracked/M113/VehParts/Tracks/Data/M113_base_interior_Components_1.emat"
+    }
+    MaterialAssignClass "{5E7CC62294B30D8A}" {
+     SourceMaterial "jerry_can_water"
+     AssignedMaterial "{1C3F46C6AEFDBEEB}Assets/Vehicles/Tracked/M113/VehParts/Tracks/Data/jerry_can_water.emat"
+    }
+    MaterialAssignClass "{5E7CC62294B30D94}" {
+     SourceMaterial "m113_chassis"
+     AssignedMaterial "{78BA70B27E9E269E}Assets/Vehicles/Tracked/M113/VehParts/Tracks/Data/m113_chassis.emat"
+    }
+    MaterialAssignClass "{5E7CC62294B30D96}" {
+     SourceMaterial "m113_tracks_flat_L"
+     AssignedMaterial "{B38FD274396A0C50}Assets/Vehicles/Tracked/M113/Data/m113_tracks_flat_L.emat"
+    }
+   }
+   MeshParams {
+    MeshParam m113_tracks_flat_right {
+    }
+    MeshParam hatch_cargo {
+    }
+    MeshParam hatch_drvers {
+    }
+    MeshParam hatch_engine {
+    }
+    MeshParam hull_body {
+    }
+    MeshParam m113_tracks_flat_left {
+    }
+    MeshParam ramp {
+    }
+    MeshParam ramp_door {
+    }
+    MeshParam shovel {
+    }
+    MeshParam "shovel.001" {
+    }
+    MeshParam wheel_drive_01 {
+    }
+    MeshParam wheel_drive_02 {
+    }
+    MeshParam wheel_idler_01 {
+    }
+    MeshParam wheel_idler_02 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_m113_tracks_flat_right {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_m113_tracks_flat_right {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{87237C809110D351}Common/Materials/Game/Armor/armor_14mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MineGeo_L {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MineGeo_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Engine_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_GasTank_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_m113_tracks_flat_left {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Radiator_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Ramp {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_hull_body {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hatch_cargo {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hatch_drvers {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hatch_engine {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Hull_Body {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+      "{87237C809110D351}Common/Materials/Game/Armor/armor_14mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_m113_tracks_flat_left {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{87237C809110D351}Common/Materials/Game/Armor/armor_14mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_ramp {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_ramp_door {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_shovel {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+      "{9390521CB97A91B5}Common/Materials/Game/Wood/wood_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Transmission_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_VC_hull_body {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_drive_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_drive_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_idler_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_idler_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E7C6EB71767810E}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E7C6EB71767817F}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E7C6EB71767819B}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E7C6EB7176781B1}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E7C6EB7176781CA}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

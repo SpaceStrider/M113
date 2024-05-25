@@ -1,0 +1,66 @@
+Tank : "{85BCD705E465A5DC}Prefabs/Vehicles/Tracked/M113/M113_MEV.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#M113-EditableEntity_M113A3_MEV_Name"
+    m_Image "UI/Textures/EditorPreviews/Vehicles/Tracked/M113/M113A3_MEV.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 300
+     }
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+    }
+    RegisteringComponentSlotInfo TrimVane {
+     Prefab "{F2A52C2F81AC0985}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrimVaneArmor {
+     Prefab "{33D14E23C5927BEA}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane_Armor.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_01 {
+     Prefab "{CFFE6088EE25C475}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_01.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_02 {
+     Prefab "{A3AA546852E14B5B}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_02.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_03 {
+     Prefab "{463618915E04DC30}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_03.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_04 {
+     Prefab "{7B023DA92B685507}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_04.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_05 {
+     Prefab "{9E9E7150278DC26C}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_05.et"
+     RegisterDamage 1
+    }
+    RegisteringComponentSlotInfo TrackCover_06 {
+     Prefab "{F2CA45B09B494D42}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_06.et"
+     RegisterDamage 1
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
+    AnimGraph "{F69E99A97BC62086}Assets/Vehicles/Wheeled/M998/workspaces/M997.agr"
+    AnimInstance "{3E1B9F266F041170}Assets/Vehicles/Wheeled/M998/workspaces/M997_player.asi"
+   }
+  }
+ }
+}

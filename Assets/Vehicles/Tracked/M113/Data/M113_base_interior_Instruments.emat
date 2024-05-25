@@ -1,0 +1,10 @@
+MatPBRBasic {
+ Color 0.235 0.235 0.235 1
+ Emissive 0.114 0.1 0.083 0
+ EmissiveLV 4
+ ApplyAlbedoToEmissive 1
+ MetalnessScale 0.5
+ AOScale 0.5
+ EmissiveMap "{32CCA27A871667CE}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_Base_interior_Dashboard_EM.edds"
+ BCRMap "{73AE8D2AA3232E40}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_Base_interior_Dashboard_MCR.edds"
+}

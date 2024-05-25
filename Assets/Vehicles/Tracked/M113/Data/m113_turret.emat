@@ -1,0 +1,63 @@
+MatPBRMulti {
+ GlobalMCRMap "{6603DBAA75C92494}Assets/Vehicles/Tracked/M113/Data/Textures/m113_turret_MCR.edds"
+ MaskMap "{840ABBD93566BEEE}Assets/Vehicles/Tracked/M113/Data/Textures/m113_turret_GLOBAL_MASK.edds"
+ VFXMap "{D2C2EF01822457B8}Assets/Vehicles/Tracked/M113/Data/Textures/m113_turret_VFX.edds"
+ GlobalNMOMap "{A2B0EAA9DE40E6D4}Assets/Vehicles/Tracked/M113/Data/Textures/m113_turret_NMO.edds"
+ DirtOpacity 0.5
+ DirtColor 0.175 0.148 0.115 1
+ DirtRoughness 1
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5E7C6EB58A6816D3}" {
+  TilingU 10
+  TilingV 10
+ }
+ Enabled_4 1
+ Color_4 0.072 0.07 0.044 1
+ BCR_4 "{16DE4E86EFB365EA}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Rusted_BCR.edds"
+ NMO_4 "{E612484F08A45E18}Assets/_SharedData/Metal/ST_Lighthouse_PaintedMetal_Rusted_NMO.edds"
+ MaskSharpness_4 3
+ Mask_4 "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ UVTransform_4 MatUVTransform "{5E7C6EB5B8010656}" {
+  TilingU 10
+  TilingV 10
+ }
+ Enabled_3 1
+ Color_3 0.1 0.122 0.096 1
+ BCR_3 "{DFE62D48EAC7B13B}Assets/_SharedData/Metal/ST_Steel_Battered_02_BCR.edds"
+ NMO_3 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ MaskSharpness_3 4.116
+ MaskOffset_3 0.281
+ Mask_3 "{A3B4218CCE57A275}Assets/_SharedData/DetailMask/ST_Paint_peeling_03_Mask1.edds"
+ MaskUVScale_3 0.25
+ UVTransform_3 MatUVTransform "{5E7C6EB5AF83B0AE}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_3 0.2
+ Roughness_3 3
+ Metalness_3 0
+ Enabled_2 1
+ Color_2 0.095 0.084 0.055 1
+ BCR_2 "{DFE62D48EAC7B13B}Assets/_SharedData/Metal/ST_Steel_Battered_02_BCR.edds"
+ NMO_2 "{C2AC9474786C75F8}Assets/_SharedData/Metal/ST_Steel_Base_01_NMO.edds"
+ MaskSharpness_2 1
+ MaskOffset_2 0.113
+ Mask_2 "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ UVTransform_2 MatUVTransform "{5E7C6EB5A34E0761}" {
+  TilingU 10
+  TilingV 10
+ }
+ Roughness_2 2.7
+ Metalness_2 0.04
+ Color_1 0.091 0.114 0.086 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E7C6EB5C71F16DB}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.2
+ Roughness_1 3.1
+ Metalness_1 0
+}

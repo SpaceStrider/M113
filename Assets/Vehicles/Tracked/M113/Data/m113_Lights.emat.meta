@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{B8C7503EC9333F5A}Assets/Vehicles/Tracked/M113/Data/m113_Lights.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

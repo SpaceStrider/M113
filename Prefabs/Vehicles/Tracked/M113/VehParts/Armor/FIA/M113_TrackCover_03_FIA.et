@@ -1,0 +1,13 @@
+GenericEntity : "{463618915E04DC30}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_03.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E82926F60B46BDA}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{3B5C8CF3E1A9868E}Assets/Vehicles/Tracked/M113/Data/FIA/m113_hull_FIA.emat"
+    }
+   }
+  }
+ }
+}

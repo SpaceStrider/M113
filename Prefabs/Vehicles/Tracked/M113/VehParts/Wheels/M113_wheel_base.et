@@ -1,0 +1,20 @@
+GenericEntity : "{8DB4EEC64B2C8A08}Prefabs/Vehicles/Core/VehicleWheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{845A76B6103179F7}Assets/Vehicles/Tracked/M113/VehParts/Wheels/M113_Road_Wheel.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_WheelHitZone Wheel : "{0DF9B2DD9FFFA2CF}Prefabs/Vehicles/Core/Configs/HitZones/Wheel_APC.conf" {
+     HZDefault 1
+     DamageReduction 0
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5E7C6EBBDBB24FF5}" {
+      m_bAllowHideWreck 0
+     }
+    }
+   }
+   EnableDamage 0
+  }
+ }
+}

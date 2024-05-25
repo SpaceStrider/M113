@@ -1,0 +1,10 @@
+MatPBRMulti {
+ Color_1 0.036 0.038 0.026 1
+ BCR_1 "{BB440784A103CB06}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_BCR.edds"
+ NMO_1 "{839CBC1678749998}Assets/_SharedData/Metal/ST_MetalPaint_Coated_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E7C887222E40C8E}" {
+  TilingU 5
+  TilingV 5
+ }
+ DetNormal_1 0.3
+}

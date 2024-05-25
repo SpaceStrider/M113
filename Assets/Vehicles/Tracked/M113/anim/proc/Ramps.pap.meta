@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{1D41A2C7F18A4877}Assets/Vehicles/Tracked/M113/anim/proc/Ramps.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,9 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{6C26661FC3C6455F}Assets/Vehicles/Tracked/M113/M113_HeadLights.xob"
+  }
+ }
+ coords 2.383 0.997 -15.19
+}

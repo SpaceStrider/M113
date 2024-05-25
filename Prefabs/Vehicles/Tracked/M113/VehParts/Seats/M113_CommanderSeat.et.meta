@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5C9925DD8E5023EC}Prefabs/Vehicles/Tracked/M113/VehParts/Seats/M113_CommanderSeat.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

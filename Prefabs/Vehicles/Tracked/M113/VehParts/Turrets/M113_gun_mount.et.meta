@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{F05FF7FC466B85BB}Prefabs/Vehicles/Wheeled/M998/VehParts/M113_gun_mount.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

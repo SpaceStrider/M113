@@ -1,0 +1,9 @@
+MatPBR2Layers {
+ Color 0.319 0.319 0.319 1
+ RoughnessScale 2.5
+ BCRMap "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NormalPower 0.2
+ NMOMap "{27A21E0B6CC3108D}Assets/_SharedData/Vehicle/ST_Dents_01_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{5E863CDFDD6396C9}" {
+ }
+}

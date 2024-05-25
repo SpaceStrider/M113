@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C39268476DC2C2D8}Prefabs/Vehicles/Tracked/M113/Configs/M113_Tyre.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

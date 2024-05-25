@@ -1,0 +1,10 @@
+DeferredDecalEntity : "{2E838C00E0B47DA5}Prefabs/Vehicles/Core/Vehicle_shadow_base.et" {
+ ID "5C7AF48B23DD1093"
+ angleX 90
+ angleY 90
+ angleZ -90
+ Box BoundingVolume "{5EE4B7E4271077E1}" {
+  Size 4 8 2
+ }
+ Material "{C32D6F6667497E1F}Assets/Vehicles/Tracked/M113/Data/M113_shadow.emat"
+}

@@ -1,0 +1,74 @@
+Vehicle : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E82926914013AED}" {
+     SourceMaterial "m113_chassis"
+     AssignedMaterial "{31CE057BE03F1795}Assets/Vehicles/Tracked/M113/Data/FIA/m113_chassis_FIA.emat"
+    }
+    MaterialAssignClass "{5E82926914013AF9}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{3B5C8CF3E1A9868E}Assets/Vehicles/Tracked/M113/Data/FIA/m113_hull_FIA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "UI/Textures/EditorPreviews/Vehicles/Tracked/M113/M113_APC_FIA.edds"
+    m_sFaction "FIA"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     12 122 54
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "FIA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{84BF7F67A05D6967}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/FIA/M113_gun_mount_M2HB_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_L04 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_L05 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_L06 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_R04 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_R05 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    SCR_WheelSlotInfo Wheel_R06 {
+     Prefab "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et"
+    }
+    RegisteringComponentSlotInfo HullDecal {
+     Prefab "{6B8A9DAC6634E291}Prefabs/Vehicles/Tracked/M113/M113_FIA_CoatOfArms_decal.et"
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}

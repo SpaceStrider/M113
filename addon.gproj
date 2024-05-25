@@ -1,0 +1,77 @@
+GameProject {
+ ID "M113"
+ GUID "5E5C154FEE1094BB"
+ TITLE "M113"
+ Dependencies {
+  "5E389BB9F58B79A6" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{5E842C1169BD473E}" {
+      StringTableSource "{FEB7B0D3D1CF5623}Language/M113_localization.st"
+      Languages {
+       LanguageDefinition "{5E842C116FE09C08}" {
+        Code "cs_cz"
+        StringTableRuntime "{945A8B23892490CE}Language/M113_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C44}" {
+        Code "de_de"
+        StringTableRuntime "{412491109A8781EE}Language/M113_localization.de_de.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C55}" {
+        Code "en_us"
+        StringTableRuntime "{1FD41B5BF07484EF}Language/M113_localization.en_us.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C5B}" {
+        Code "es_es"
+        StringTableRuntime "{DA9856D21E76EFF0}Language/M113_localization.es_es.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C6C}" {
+        Code "fr_fr"
+        StringTableRuntime "{6130A3E5F8F50CF2}Language/M113_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C73}" {
+        Code "it_it"
+        StringTableRuntime "{E12C2CD155D78F0B}Language/M113_localization.it_it.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C84}" {
+        Code "ja_jp"
+        StringTableRuntime "{F13791436BA6BFA0}Language/M113_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C8B}" {
+        Code "ko_kr"
+        StringTableRuntime "{5189B9EFF88BBC9F}Language/M113_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{5E842C116FE09C9F}" {
+        Code "pl_pl"
+        StringTableRuntime "{0DF81F15466420E3}Language/M113_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{5E842C116FE09CA0}" {
+        Code "pt_br"
+        StringTableRuntime "{D88F85D97D9AEA59}Language/M113_localization.pt_br.conf"
+       }
+       LanguageDefinition "{5E842C116FE09CB4}" {
+        Code "ru_ru"
+        StringTableRuntime "{8DCE9171E0E38F2F}Language/M113_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{5E842C116FE09D01}" {
+        Code "zh_cn"
+        StringTableRuntime "{DD26AABAB56DE167}Language/M113_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig HEADLESS {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+ }
+}

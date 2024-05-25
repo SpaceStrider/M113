@@ -1,0 +1,292 @@
+ProcAnimProjectClass {
+ signals {
+  SignalClass {
+   id 8196
+   name "Signal 8"
+   tl -1057.302 640
+   res "{F88FB97860A51D88}Assets/Vehicles/Tracked/M113/anim/proc/TurretM113.siga"
+   inputsport {
+    2
+   }
+   outputsport {
+    1 7 8
+   }
+   inputvalues {
+    -14.3
+   }
+   inputvaluesmin {
+    -720
+   }
+   inputvaluesmax {
+    720
+   }
+  }
+ }
+ funcs {
+  BoneClass {
+   id 2054
+   name "TurretBase"
+   version 0
+   tl -718 307
+   outs {
+    7174
+   }
+   bone "v_turret_01"
+  }
+  BoneClass {
+   id 3078
+   name "Gunner"
+   version 0
+   tl -709 848
+   outs {
+    6150
+   }
+   bone "gunner_idle"
+  }
+  RotationMakeClass {
+   id 4102
+   name "RotationMake 4102"
+   tl -705 630
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 8196
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    6150
+   }
+  }
+  RotationMakeClass {
+   id 5126
+   name "RotationMake 5126"
+   tl -710 429
+   iops {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 8196
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    7174
+   }
+  }
+  RotationSetClass {
+   id 6150
+   name "RotationSet 6150"
+   tl -398 743
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 4102
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 3078
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  RotationSetClass {
+   id 7174
+   name "RotationSet 7174"
+   tl -406 377
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 5126
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 2054
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationSetClass {
+   id 9222
+   name "RotationSet 9222"
+   tl -477.143 998.571
+   funcs {
+    IOPConnectionClass iopConnection {
+     port 1
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 10246
+         port 0
+        }
+       }
+      }
+     }
+    }
+    IOPConnectionClass iopConnection {
+     port 0
+     conn {
+      ConnectionsClass connections {
+       id 2
+       links {
+        ConnectionClass connection {
+         id 11270
+         port 0
+        }
+       }
+      }
+     }
+    }
+   }
+   UpdateCollider 1
+  }
+  RotationMakeClass {
+   id 10246
+   name "RotationMake 10246"
+   tl -685.714 1124.286
+   iops {
+    IOPConnectionClass iopConnection {
+     port 2
+     conn {
+      ConnectionsClass connections {
+       id 0
+       links {
+        ConnectionClass connection {
+         id 8196
+         port 8
+        }
+       }
+      }
+     }
+    }
+   }
+   outs {
+    9222
+   }
+  }
+  BoneClass {
+   id 11270
+   name "Bone 11270"
+   version 0
+   tl -665.714 977.143
+   outs {
+    9222
+   }
+   bone "v_gunner_hatch"
+  }
+ }
+ model "{12117FB4B2180487}Assets/Vehicles/Tracked/M113/VehParts/Turret/M113_Turret.xob"
+ version 1
+ compiled ProcAnimCompiledClass {
+  visited {
+   1025 897 769 385 257 129 513 1 641
+  }
+  ops {
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 262144 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 327680 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 131072 0 65536 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 196608 0 0 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     0 4 458752 0 524288 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 393216 0
+    }
+   }
+   ProcAnimCompiledOp {
+    data {
+     1 393216 0
+    }
+   }
+  }
+  version 2
+  argsize 15
+ }
+}

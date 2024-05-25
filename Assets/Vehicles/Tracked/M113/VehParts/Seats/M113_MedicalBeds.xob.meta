@@ -1,0 +1,53 @@
+MetaFileClass {
+ Name "{9B32690EEBB5205F}Assets/Vehicles/Tracked/M113/VehParts/Seats/M113_MedicalBeds.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5E863CC5B3E45393}" {
+     SourceMaterial "M113_base_interior_Components_3"
+     AssignedMaterial "{1A7D776843242FB4}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_3.emat"
+    }
+    MaterialAssignClass "{5E863CC5B3E453AE}" {
+     SourceMaterial "M113_base_interior_Components_2"
+     AssignedMaterial "{B09D19B3F174C9CF}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "BenchA01.001" {
+    }
+    MeshParam "BenchA02.001" {
+    }
+    MeshParam "BenchA03.001" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_MedicalBed {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D9FC388632D4ECC8}Common/Materials/Game/Fabric/fabric_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E863CC5B3E8B45D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E863CC5B3E8B4ED}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E863CC5B3E8B509}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E863CC5B3E8B521}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E863CC5B3E8B546}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

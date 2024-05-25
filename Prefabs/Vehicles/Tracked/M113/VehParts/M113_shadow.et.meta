@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{43DE4D39E4CC57E5}Prefabs/Vehicles/Wheeled/BTR70/VehParts/M113_shadow.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

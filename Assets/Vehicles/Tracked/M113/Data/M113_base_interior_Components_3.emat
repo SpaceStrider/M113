@@ -1,0 +1,11 @@
+MatPBRMulti {
+ Color_1 0.098 0.085 0.078 1
+ BCR_1 "{B141E00CC94C086A}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_BCR.edds"
+ NMO_1 "{678C7AE394DD0CBD}Assets/_SharedData/Plastic/ST_Plastic_Fine01_1m_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E7C887274A536E4}" {
+  TilingU 5
+  TilingV 5
+ }
+ DetNormal_1 0.3
+ Roughness_1 0.69
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4FCA594DEA0E741D}Prefabs/Vehicles/Core/Lights/VehicleLight_Dashboard_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AFDD5D3F371C373A}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane_Armor_MERDC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

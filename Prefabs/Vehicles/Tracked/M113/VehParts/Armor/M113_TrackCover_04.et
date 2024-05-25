@@ -1,0 +1,21 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{E8BA2F08DFE2ACF1}Assets/Vehicles/Tracked/M113/VehParts/Addons/M113_TrackCover_04.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Addons {
+     HZDefault 1
+     BaseDamageMultiplier 0
+     DamageReduction 0
+     DamageThreshold 0
+     "Collision multiplier" 0
+     m_fPassDamageToParentScale 1
+     m_vParticleOffset 0 0 0
+    }
+   }
+  }
+ }
+}

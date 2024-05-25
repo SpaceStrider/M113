@@ -1,0 +1,13 @@
+GenericEntity : "{4C681B13D3A86293}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E82926FD53AFC88}" {
+     SourceMaterial "m113_chassis"
+     AssignedMaterial "{31CE057BE03F1795}Assets/Vehicles/Tracked/M113/Data/FIA/m113_chassis_FIA.emat"
+    }
+   }
+  }
+ }
+}

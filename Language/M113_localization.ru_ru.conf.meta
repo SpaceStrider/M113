@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8DCE9171E0E38F2F}Language/M113_localization.ru_ru.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

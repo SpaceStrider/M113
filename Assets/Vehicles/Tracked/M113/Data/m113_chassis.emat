@@ -1,0 +1,58 @@
+MatPBRMulti {
+ CavityFromAO 0.3
+ GlobalMCRMap "{95D633786CF6FC11}Assets/Vehicles/Tracked/M113/Data/Textures/m113_chassis_MCR.edds"
+ MaskMap "{128B6E0D58339B8D}Assets/Vehicles/Tracked/M113/Data/Textures/m113_chassis_GLOBAL_MASK.edds"
+ VFXMap "{211707D39B1B8F3D}Assets/Vehicles/Tracked/M113/Data/Textures/m113_chassis_VFX.edds"
+ GlobalNMOMap "{5165027BC77F3E51}Assets/Vehicles/Tracked/M113/Data/Textures/m113_chassis_NMO.edds"
+ MudOpacity 0.958
+ MudColor 0.095 0.086 0.073 1
+ MudRoughness 2
+ MudMetalness 0
+ MudBCRMap "{15A4D0147C0F3804}Assets/_SharedData/Plaster/ST_Plaster_Damaged_01_BCR.edds"
+ MudNMOMap "{96EF3CD8C8E643BA}Assets/_SharedData/Dirt/ST_Mud_01_NMO.edds"
+ MudMaskMap "{816ABEBED1A52FF3}Assets/_SharedData/DetailMask/ST_Mud_01_Mask.edds"
+ MudUVTransform MatUVTransform "{5E787636F3B56708}" {
+  TilingU 10
+  TilingV 10
+ }
+ DirtOpacity 0.107
+ DirtLayerSharpness 1.944
+ DirtColor 0.175 0.148 0.115 1
+ DirtRoughness 1
+ DirtBCRMap "{366028E90066FC57}Assets/_SharedData/Dirt/ST_Dirt_Sand_BCR.edds"
+ DirtMaskMap "{2563D86FF583B1EF}Assets/_SharedData/DetailMask/ST_Metal_Rust_01_Mask1.edds"
+ DirtUVTransform MatUVTransform "{5E787636E38419FD}" {
+  TilingU 10
+  TilingV 10
+ }
+ Enabled_4 1
+ BCR_4 "{B141E00CC94C086A}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_BCR.edds"
+ NMO_4 "{89995B9E103B5AF4}Assets/_SharedData/Rubber/ST_Rubber_Aged01_1m_NMO.edds"
+ UVTransform_4 MatUVTransform "{5E78763162470EA2}" {
+  TilingU 10
+  TilingV 10
+ }
+ Enabled_2 1
+ Color_2 0.095 0.084 0.055 1
+ BCR_2 "{DFE62D48EAC7B13B}Assets/_SharedData/Metal/ST_Steel_Battered_02_BCR.edds"
+ NMO_2 "{C2AC9474786C75F8}Assets/_SharedData/Metal/ST_Steel_Base_01_NMO.edds"
+ MaskSharpness_2 1
+ MaskOffset_2 0.113
+ Mask_2 "{1B7EB2580B7412F0}Assets/_SharedData/DetailMask/ST_Smudge_01_Mask1.edds"
+ UVTransform_2 MatUVTransform "{5E7C6EB5D4D2ADEB}" {
+  TilingU 10
+  TilingV 10
+ }
+ Roughness_2 2.7
+ Metalness_2 0.04
+ Color_1 0.091 0.114 0.086 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ UVTransform_1 MatUVTransform "{5E787637077DB2B9}" {
+  TilingU 10
+  TilingV 10
+ }
+ DetNormal_1 0.2
+ Roughness_1 3.1
+ Metalness_1 0
+}

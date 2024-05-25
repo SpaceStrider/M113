@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EF059CE68CB4F17B}Prefabs/Vehicles/Tracked/M113/Lights/M113_ES_light.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

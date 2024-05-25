@@ -1,0 +1,23 @@
+MatPBRMulti : "{2470BEF7BB50B110}Assets/Vehicles/Tracked/M113/Data/m113_hull.emat" {
+ RoughnessScale 1.2
+ MaskMap "{2F94E45AA940EDCB}Assets/Vehicles/Tracked/M113/Data/Textures/m113_hull_FIA_GLOBAL_MASK.edds"
+ MaskGreenScale 1
+ Color_4 0.156 0.154 0.148 1
+ BCR_4 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_4 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ Mask_4 "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ MaskUVScale_4 2
+ DetNormal_4 0.2
+ Roughness_4 2.7
+ Metalness_4 0
+ Color_3 0.102 0.053 0.042 1
+ BCR_3 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_3 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ MaskSharpness_3 3
+ MaskOffset_3 0
+ Mask_3 "{DE18086A9CA88FBA}Assets/_SharedData/DetailMask/ST_Dirt_04_Mask1.edds"
+ MaskUVScale_3 2
+ Roughness_3 2.7
+ Color_1 0.098 0.093 0.052 1
+ Roughness_1 2.1
+}

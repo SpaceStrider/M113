@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{86E9C4961135EA3E}Assets/Vehicles/Tracked/M113/anim/proc/GunnerHatch.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

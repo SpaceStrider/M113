@@ -1,0 +1,42 @@
+Vehicle : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E829267E346CBDC}" {
+     SourceMaterial "m113_chassis"
+     AssignedMaterial "{D660405F1B9A6FB4}Assets/Vehicles/Tracked/M113/Data/MERDC/m113_chassis_MERDC.emat"
+    }
+    MaterialAssignClass "{5E829267E346CBF7}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{25DE7EE801AF5935}Assets/Vehicles/Tracked/M113/Data/MERDC/m113_hull_MERDC.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Icon "{95F49CBE9FF7A0CB}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Apc.edds"
+    m_Image "UI/Textures/EditorPreviews/Vehicles/Tracked/M113/M113_APC_MERDC.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5E82BED0F938752A}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{7477A43AA23952C8}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et"
+    }
+   }
+  }
+ }
+}

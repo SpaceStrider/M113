@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{2D78DBA42CBC35E9}Prefabs/Vehicles/Tracked/M113/M113_RedCross_decal.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

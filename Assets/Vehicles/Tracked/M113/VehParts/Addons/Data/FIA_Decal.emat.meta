@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{0B5FEE5B9B822137}Assets/Vehicles/Tracked/M113/VehParts/Addons/Data/FIA_Decal.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

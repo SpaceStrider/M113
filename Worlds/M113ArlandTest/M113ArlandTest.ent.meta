@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E4C7E93B8749BF45}Worlds/M113ArlandTest/M113ArlandTest.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

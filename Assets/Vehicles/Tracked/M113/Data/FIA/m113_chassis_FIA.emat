@@ -1,0 +1,7 @@
+MatPBRMulti : "{2B5ADB78A9D3031B}Assets/Vehicles/Tracked/M113/Data/m113_chassis.emat" {
+ RoughnessScale 1.2
+ Color_1 0.098 0.093 0.052 1
+ BCR_1 "{6390F3AA091C74E1}Assets/_SharedData/Metal/ST_MetalPaint_Mate_1m_BCR.edds"
+ NMO_1 "{5E9B5A9AF633BD94}Assets/_SharedData/Metal/ST_Steel_Battered_NMO.edds"
+ Roughness_1 2.1
+}

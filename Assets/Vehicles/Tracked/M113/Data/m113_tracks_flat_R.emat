@@ -1,0 +1,16 @@
+MatPBRBasic {
+ Color 0.429 0.429 0.429 1
+ Cull none
+ TCModFuncs {
+  TCModShift "{5C709E85FA253C86}" {
+   ShiftV 0.0
+   Refs {
+    "ShiftV" "Tank.m_RightTrack"
+	}
+  }
+ }
+ AlphaTest 0.75
+ BCRMap "{DD44C4ABA4F907BA}Assets/Vehicles/Tracked/M113/Data/Textures/m113_tracks_flat_L_base_BCR.edds"
+ OpacityMap "{5EC0197690F870A9}Assets/Vehicles/Tracked/M113/Data/Textures/m113_tracks_flat_L_base_A.edds"
+ NMOMap "{E59C7F397D8E5524}Assets/Vehicles/Tracked/M113/Data/Textures/m113_tracks_flat_L_base_NMO.edds"
+}

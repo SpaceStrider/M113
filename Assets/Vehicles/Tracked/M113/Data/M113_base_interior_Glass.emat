@@ -1,0 +1,4 @@
+MatPBRBasicGlass {
+ Color 0.031 0.031 0.031 1
+ BCRMap "{2B82E1B19C020F62}Assets/_SharedData/Glass/ST_Glass_Streaks_01_BCR.edds"
+}

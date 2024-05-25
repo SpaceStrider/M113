@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{3B5C8CF3E1A9868E}Assets/Vehicles/Tracked/M113/Data/m113_hull_FIA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

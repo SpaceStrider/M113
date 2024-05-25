@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{03C2708E6E93E63A}Assets/Vehicles/Tracked/M113/VehParts/Turret/Data/m113_tracks_flat_R.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

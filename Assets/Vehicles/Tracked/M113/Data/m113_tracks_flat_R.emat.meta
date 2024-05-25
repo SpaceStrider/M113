@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7CFF0939E9C90D10}Assets/Vehicles/Tracked/M113/Data/m113_tracks_flat_R.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

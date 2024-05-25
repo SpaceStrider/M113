@@ -1,0 +1,45 @@
+MetaFileClass {
+ Name "{16A4C8DBFD895C0D}Assets/Vehicles/Tracked/M113/VehParts/Addons/M113_trim_vane_addon.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5E82109BCEE1D489}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{2470BEF7BB50B110}Assets/Vehicles/Tracked/M113/Data/m113_hull.emat"
+    }
+   }
+   MeshParams {
+    MeshParam trim_vane_add {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_trim_vane_add {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EB387D1072E08951}Common/Materials/Game/Metal/metal_7mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E82109BCEF3470D}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E82109BCEF3478A}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E82109BCEF347AF}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E82109BCEF347CC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E82109BCEF347E5}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

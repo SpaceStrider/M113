@@ -1,0 +1,25 @@
+MetaFileClass {
+ Name "{6603DBAA75C92494}Assets/Vehicles/Tracked/M113/Data/Textures/m113_turret_MCR.edds"
+ Configurations {
+  TIFFResourceClass PC : "{A6CC0A2F9DB86CBE}Configs/System/ResourceTypes/PC/TextureMCRMap.conf" {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_ONE : "{224B78299A038E4A}Configs/System/ResourceTypes/XBOX_ONE/TextureMCRMap.conf" {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass XBOX_SERIES : "{B5FA7506CF384E79}Configs/System/ResourceTypes/XBOX_SERIES/TextureMCRMap.conf" {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass PS4 : "{E7A6FCCE55593073}Configs/System/ResourceTypes/PS4/TextureMCRMap.conf" {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+  TIFFResourceClass HEADLESS : "{D49C34F7354B6F47}Configs/System/ResourceTypes/HEADLESS/TextureMCRMap.conf" {
+   MaxSize "1024"
+   ColorSpace ToSRGB
+  }
+ }
+}

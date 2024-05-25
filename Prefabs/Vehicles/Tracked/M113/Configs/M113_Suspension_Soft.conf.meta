@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AA8FBC769A0340BD}Prefabs/Vehicles/Tracked/M113/Configs/M113_Suspension_Soft.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

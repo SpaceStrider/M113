@@ -1,0 +1,11 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{DF726C1FDEFC772A}Assets/Vehicles/Tracked/M113/VehParts/Tracks/m113_track_L.xob"
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   Enabled 0
+  }
+ }
+}

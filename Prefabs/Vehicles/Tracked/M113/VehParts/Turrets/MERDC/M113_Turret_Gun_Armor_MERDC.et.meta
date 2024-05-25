@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{FCADF7F02F0D6FD5}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Gun_Armor_MERDC.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

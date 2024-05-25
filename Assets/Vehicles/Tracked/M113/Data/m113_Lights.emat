@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Emissive 1 1 1 0
+ EmissiveLV 4
+ EmissiveMap "{3B2E56C3E5DC4E65}Assets/Vehicles/Tracked/M113/Data/Textures/m113_hull_MCR.edds"
+ BCRMap "{3B2E56C3E5DC4E65}Assets/Vehicles/Tracked/M113/Data/Textures/m113_hull_MCR.edds"
+ NMOMap "{FF9D67C04E558C25}Assets/Vehicles/Tracked/M113/Data/Textures/m113_hull_NMO.edds"
+}

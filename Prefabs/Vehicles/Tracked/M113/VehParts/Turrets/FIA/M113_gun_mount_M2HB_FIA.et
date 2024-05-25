@@ -1,0 +1,13 @@
+Turret : "{E763BDED1EF39B41}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_gun_mount_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5E82926ED5020C01}" {
+     SourceMaterial "m113_turret"
+     AssignedMaterial "{C20CFB5D807B1C57}Assets/Vehicles/Tracked/M113/Data/FIA/m113_turret_FIA.emat"
+    }
+   }
+  }
+ }
+}

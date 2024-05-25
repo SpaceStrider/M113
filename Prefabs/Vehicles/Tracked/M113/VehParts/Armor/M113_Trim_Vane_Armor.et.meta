@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{33D14E23C5927BEA}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane_Armor.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

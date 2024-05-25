@@ -1,0 +1,8 @@
+GenericEntity : "{14DD362AFAD42F56}Prefabs/Vehicles/Tracked/M113/VehParts/Tracks/M113_Track_L.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{2E79544BADA342C6}Assets/Vehicles/Tracked/M113/VehParts/Tracks/m113_track_R.xob"
+  }
+ }
+}

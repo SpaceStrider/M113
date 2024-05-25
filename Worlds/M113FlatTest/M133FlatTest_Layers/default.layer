@@ -1,0 +1,272 @@
+Vehicle M997_maxi_ambulance1 : "{00C9BBE426F7D459}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance.et" {
+ coords 81.698 1 129.18
+}
+GenericEntity : "{044E53AA739535FC}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_TrackCover_02_FIA.et" {
+ coords 43.865 1 179.29
+}
+Turret : "{0733CBDEE9954C3A}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_Turret_unarmed_MERDC.et" {
+ coords 55.118 1 147.902
+}
+Tank M113A3_APC1 : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A3_APC.et" {
+ coords 29.851 1 132.23
+}
+Turret : "{18343824C9D533CA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount_M2HB.et" {
+ coords 77.822 1 152.388
+}
+Tank M113_APC1 : "{18378FFFC82F30BF}Prefabs/Vehicles/Tracked/M113/M113_APC.et" {
+ coords 30.081 1 140.29
+}
+GenericEntity : "{221B986890AB63FD}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/BTR70_wheel_base.et" {
+ coords 81.188 1 151.49
+}
+GenericEntity : "{23103797653B645F}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_TrackCover_04_FIA.et" {
+ coords 43.865 1 179.29
+}
+Vehicle UAZ1 : "{259EE7B78C51B624}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469.et" {
+ coords 99.12 1 156.753
+}
+GenericEntity : "{293247CFF58BC712}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Armor.et" {
+ coords 78.107 1 151.774
+}
+Tank M113A3_APC_FIA1 : "{29FB8893F52B807B}Prefabs/Vehicles/Tracked/M113/M113A3_APC_FIA.et" {
+ coords 36.965 1 131.506
+}
+Tank M113_APC_FIA1 : "{2A87CD35D090A3E8}Prefabs/Vehicles/Tracked/M113/M113_APC_FIA.et" {
+ coords 36.703 1 140.512
+}
+GenericEntity : "{2D78DBA42CBC35E9}Prefabs/Vehicles/Tracked/M113/M113_RedCross_decal.et" {
+ components {
+  RigidBody "{4B42E71692C2FB79}" {
+   Enabled 0
+  }
+ }
+ coords 35.613 1 149.647
+}
+$grp GenericEntity : "{33D14E23C5927BEA}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane_Armor.et" {
+ {
+  coords 69.716 1 153.946
+ }
+ {
+  coords 55.226 1 143.257
+ }
+}
+GenericEntity : "{3AA0012018C1CC3D}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/FIA/M113_Turret_Gun_Armor_FIA.et" {
+ coords 72.258 1 174.028
+}
+Vehicle M997_maxi_ambulance_MERDC1 : "{3B1EB924602C7A07}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_MERDC.et" {
+ coords 76.05 1 127.634
+}
+$grp DeferredDecalEntity : "{43DE4D39E4CC57E5}Prefabs/Vehicles/Tracked/M113/VehParts/M113_shadow.et" {
+ {
+  coords 31.455 1 148.141
+  angleX -90
+  angleY -180
+  angleZ -180
+ }
+ {
+  coords 24.142 1 131.064
+  angleX -90
+  angleY 0
+  angleZ 0
+ }
+}
+GenericEntity : "{463618915E04DC30}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_03.et" {
+ coords 54.83 1 155.373
+}
+Vehicle M1 : "{4A71F755A4513227}Prefabs/Vehicles/Wheeled/M998/M1025.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 12912.9
+  }
+ }
+ coords 102.251 1 143.744
+}
+GenericEntity : "{4C681B13D3A86293}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_base.et" {
+ coords 84.307 1 154.446
+}
+GenericEntity : "{4D5D09CE505A8AD7}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_TrackCover_05_FIA.et" {
+ coords 43.865 1 179.29
+}
+GenericEntity : "{54A7F0786970CF01}Prefabs/Vehicles/Tracked/M113/VehParts/Seats/M113_MedicalBeds.et" {
+ coords 64.513 1 159.976
+}
+GenericEntity : "{560F73F546DC3951}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_Trim_Vane_FIA.et" {
+ coords 43.865 1 179.29
+}
+Tank M113_base1 : "{595DBA9E00CC7454}Prefabs/Vehicles/Tracked/M113/M113_base.et" {
+ coords 24.074 1 140.2
+}
+$grp SCR_EditorModeEntity : "{59EF8ECAE1DCD417}Prefabs/Editor/Modes/EditorModeEdit.et" {
+ {
+  coords 87.62 1 140.955
+ }
+ {
+  coords 14.529 1 154.939
+ }
+}
+GenericEntity : "{5C9925DD8E5023EC}Prefabs/Vehicles/Tracked/M113/VehParts/Seats/M113_CommanderSeat.et" {
+ coords 62.441 1 153.513
+}
+GenericEntity : "{6A036DF346F4DB74}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_TrackCover_03_FIA.et" {
+ coords 43.865 1 179.29
+}
+$grp GenericEntity : "{6B8A9DAC6634E291}Prefabs/Vehicles/Tracked/M113/M113_FIA_CoatOfArms_decal.et" {
+ {
+  coords 34.155 1 140.279
+ }
+ {
+  coords 42.643 1 160.049
+ }
+}
+Turret : "{7477A43AA23952C8}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_MERDC.et" {
+ coords 61.547 1 147.532
+}
+Turret : "{75CD41C2C73548B9}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_gun_mount_M2HB_Armored.et" {
+ coords 75.52 1 160.679
+}
+GenericEntity : "{77F39424FBA005EF}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_Trim_Vane_Armor_FIA.et" {
+ coords 43.865 1 179.29
+}
+GenericEntity : "{79E6DD177CE29E67}Prefabs/Vehicles/Tracked/M113/VehParts/Seats/M113_GunnerSeat.et" {
+ coords 60.764 1 155.161
+}
+GenericEntity : "{7B023DA92B685507}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_04.et" {
+ coords 51.558 1 154.98
+}
+Turret : "{8299BBC7B195DEAF}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/FIA/M113_gun_mount_M2HB_Armored_FIA.et" {
+ coords 82.259 1 174.675
+}
+Turret : "{84BF7F67A05D6967}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/FIA/M113_gun_mount_M2HB_FIA.et" {
+ coords 78.73 1 175.472
+}
+Tank M113_MEV1 : "{85BCD705E465A5DC}Prefabs/Vehicles/Tracked/M113/M113_MEV.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 13602.9
+  }
+ }
+ coords 18.983 1 140.214
+}
+GenericEntity : "{8660125469E1F8EA}Prefabs/Vehicles/Wheeled/M998/VehParts/M997_maxi_ambulance_box.et" {
+ coords 95.37 1 129.604
+}
+Turret : "{8C68C54F9C50A9AF}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_gun_mount.et" {
+ coords 106.043 1 136.634
+}
+GameEntity : "{8E11280F11A7EC15}Prefabs/Vehicles/Tracked/M113/Lights/M113_ES_Headlight.et" {
+ coords 23.903 1 166.32
+}
+GenericEntity : "{9058D61B520DE32B}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_sparetire_holder.et" {
+ coords 50.454 1 121.8
+}
+Tank M113_APC_MERDC1 : "{953523CFE2DB9769}Prefabs/Vehicles/Tracked/M113/M113_APC_MERDC.et" {
+ coords 43.672 1 139.992
+}
+Turret : "{95703ED87ABC416C}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_Armored_MERDC.et" {
+ coords 64.813 1 146.805
+}
+GenericEntity : "{95DD4A9465915653}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_Turret_Armor_MERDC.et" {
+ coords 59.511 1 147.095
+}
+GenericEntity : "{98480164906024E3}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Gun_Armor.et" {
+ coords 82.465 1 159.792
+}
+GenericEntity : "{986BBDD66E50B41F}Prefabs/Props/Core/Triplex_Placeholder.et" {
+ coords 23.388 1.896 134.562
+}
+GenericEntity : "{9E9E7150278DC26C}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_05.et" {
+ coords 48.045 1 154.519
+}
+GenericEntity : "{A0E4130C2D86B4B9}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/BTR70_wheel_left_01.et" {
+ coords 81.576 1 152.989
+}
+GenericEntity : "{A0E47F43D92121EC}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113_Armored.et" {
+ coords 87.272 2.069 159.602
+}
+GenericEntity : "{A237EA45CED8EBFA}PrefabsEditable/Auto/Props/Wrecks/E_M113_wreck.et" {
+ coords 90.487 1 148.209
+}
+GenericEntity : "{A3AA546852E14B5B}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_02.et" {
+ coords 57.089 1 156.337
+}
+GenericEntity : "{AA4AC8081E00414F}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/FIA/M113_Turret_Armor_FIA.et" {
+ coords 74.613 1 174.01
+}
+GenericEntity : "{AFDD5D3F371C373A}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/MERDC/M113_Trim_Vane_Armor_MERDC.et" {
+ coords 50.877 1 146.652
+}
+GenericEntity : "{B69911412C370664}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_TrackCover_01_FIA.et" {
+ coords 43.865 1 179.29
+}
+GenericEntity : "{BBE612EDA4B0CD5D}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113_Armored_MERDC.et" {
+ coords 53.312 2.055 146.947
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ components {
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 13602.9
+  }
+ }
+ coords 21.774 0.999 149.404
+}
+GenericEntity : "{CBA3AC3960FFB24F}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113_Armored_FIA.et" {
+ coords 69.971 1 173.693
+}
+GenericEntity : "{CFFE6088EE25C475}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_01.et" {
+ coords 59.995 1 155.083
+}
+GameEntity : "{E34A7E5AE73615BF}Prefabs/Vehicles/Tracked/M113/Lights/M113_ES_Breaklight.et" {
+ coords 23.839 1 166.316
+}
+$grp Turret : "{E763BDED1EF39B41}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_gun_mount_M2HB.et" {
+ {
+  coords 81.716 1 155.951
+ }
+ {
+  coords 77.819 1 158.283
+ }
+}
+Tank M113A3_MEV1 : "{E80F269052FC0482}Prefabs/Vehicles/Tracked/M113/M113A3_MEV.et" {
+ coords 18.874 1 131.113
+}
+Tank M113A3_APC_MERDC1 : "{E9BEA9042617CAAD}Prefabs/Vehicles/Tracked/M113/M113A3_APC_MERDC.et" {
+ coords 42.849 1 131.688
+}
+GenericEntity : "{EC3CF1E8B73F6BD6}Prefabs/Vehicles/Tracked/M113/VehParts/Seats/M113_BenchSeats.et" {
+ coords 66.359 1 154.548
+}
+$grp GenericEntity : "{EC5DFBA31CAC836C}Prefabs/Props/Core/Triplex_Hidden_Placeholder.et" {
+ {
+  coords 26.531 1.951 145.57
+ }
+ {
+  coords 26.931 1.187 137.393
+ }
+}
+GenericEntity : "{ECA8147F6987F8FB}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_SpareTrack.et" {
+ coords 64.558 1 159.526
+}
+GameEntity : "{EF059CE68CB4F17B}Prefabs/Vehicles/Tracked/M113/Lights/M113_ES_light.et" {
+ coords 23.77 1 166.335
+}
+Turret : "{F05FF7FC466B85BB}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_gun_mount.et" {
+ coords 82.411 1 149.288
+}
+GenericEntity : "{F2A52C2F81AC0985}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane.et" {
+ coords 72.372 1 154.102
+}
+GenericEntity : "{F2CA45B09B494D42}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_06.et" {
+ coords 43.725 1 154.245
+}
+GenericEntity : "{F50A9A76D43C5802}Prefabs/Vehicles/Tracked/M113/VehParts/Wheels/M113_wheel_FIA.et" {
+ coords 38.074 1 155.235
+}
+GenericEntity : "{FCADF7F02F0D6FD5}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_Turret_Gun_Armor_MERDC.et" {
+ coords 57.051 1 147.907
+}
+Turret : "{FD080A1AA80B73BC}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_unarmed.et" {
+ coords 78.228 1 156.005
+}
+GenericEntity : "{FF8A4B250FF8B94F}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/FIA/M113_TrackCover_06_FIA.et" {
+ coords 43.865 1 179.29
+}

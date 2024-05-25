@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{54180ECE629BA584}Prefabs/Vehicles/Tracked/M113/Configs/M113CargoCompartment.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7AD2CC17F8599700}Worlds/M113FlatTest/M133FlatTest.ent"
+ Configurations {
+  ENTResourceClass PC {
+  }
+  ENTResourceClass XBOX_ONE : PC {
+  }
+  ENTResourceClass XBOX_SERIES : PC {
+  }
+  ENTResourceClass PS4 : PC {
+  }
+  ENTResourceClass HEADLESS : PC {
+  }
+ }
+}

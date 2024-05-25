@@ -1,0 +1,26 @@
+Turret : "{F05FF7FC466B85BB}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_gun_mount.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{5E825E019592F84B}" {
+   Slots {
+    RegisteringComponentSlotInfo Armor {
+     PivotID "v_turret_01"
+     Enabled 0
+     Prefab "{293247CFF58BC712}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Armor.et"
+     RegisterDamage 1
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{CFA240BE56511D5B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113.et"
+  }
+ }
+}

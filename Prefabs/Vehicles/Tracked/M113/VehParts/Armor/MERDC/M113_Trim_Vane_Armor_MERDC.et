@@ -1,0 +1,13 @@
+GenericEntity : "{33D14E23C5927BEA}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_Trim_Vane_Armor.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E8292795E816039}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{25DE7EE801AF5935}Assets/Vehicles/Tracked/M113/Data/MERDC/m113_hull_MERDC.emat"
+    }
+   }
+  }
+ }
+}

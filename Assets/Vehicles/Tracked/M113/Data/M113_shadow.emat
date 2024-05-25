@@ -1,0 +1,11 @@
+MatDeferredDecals {
+ Texture "{A96B049FB12FCCA6}Assets/Vehicles/Tracked/M113/Data/Textures/M113Shadow.edds"
+ Intensity 1
+ FadeBorders 0
+ FadeProjection 0.5
+ FadeProjectionOpposite 0.5
+ Taper 0
+ FadeAngleDir 0 1 0
+ FadeAngleStart 20
+ FadeAngleEnd 90
+}

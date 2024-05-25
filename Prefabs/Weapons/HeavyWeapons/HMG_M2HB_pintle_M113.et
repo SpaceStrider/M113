@@ -1,0 +1,9 @@
+GenericEntity : "{9CF19D872D4D1C00}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle.et" {
+ ID "476AE74DE20E1061"
+ components {
+  TurretComponent "{6D6D283BE816D8C3}" {
+   CameraAdsAttachment PointInfo "{56B4E2BA9BEFA450}" {
+   }
+  }
+ }
+}

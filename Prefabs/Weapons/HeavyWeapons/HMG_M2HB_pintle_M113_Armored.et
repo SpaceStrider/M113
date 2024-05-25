@@ -1,0 +1,15 @@
+GenericEntity : "{CFA240BE56511D5B}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113.et" {
+ ID "476AE74DE20E1061"
+ components {
+  SlotManagerComponent "{5E825E02F83D4237}" {
+   Slots {
+    RegisteringComponentSlotInfo Armor {
+     PivotID "w_root"
+     Offset 0 0.1763 0.0427
+     Prefab "{98480164906024E3}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Gun_Armor.et"
+     RegisterDamage 1
+    }
+   }
+  }
+ }
+}

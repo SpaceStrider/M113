@@ -1,0 +1,34 @@
+Vehicle : "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A3_APC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E82927AF6ED9864}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{25DE7EE801AF5935}Assets/Vehicles/Tracked/M113/Data/MERDC/m113_hull_MERDC.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "UI/Textures/EditorPreviews/Vehicles/Tracked/M113/M113A3_APC_MERDC.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels +{
+    }
+    m_aOccupantFillCompartmentTypes +{
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{95703ED87ABC416C}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/MERDC/M113_gun_mount_M2HB_Armored_MERDC.et"
+    }
+    RegisteringComponentSlotInfo TrimVaneArmor {
+     Prefab "{AFDD5D3F371C373A}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/MERDC/M113_Trim_Vane_Armor_MERDC.et"
+    }
+   }
+  }
+ }
+}

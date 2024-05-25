@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{044E53AA739535FC}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_02_FIA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

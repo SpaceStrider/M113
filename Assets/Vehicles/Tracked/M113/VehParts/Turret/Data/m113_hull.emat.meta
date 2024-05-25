@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{87B50B328E20EB13}Assets/Vehicles/Tracked/M113/VehParts/Turret/Data/m113_hull.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

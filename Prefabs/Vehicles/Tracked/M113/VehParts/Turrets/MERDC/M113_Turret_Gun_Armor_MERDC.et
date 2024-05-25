@@ -1,0 +1,13 @@
+GenericEntity : "{98480164906024E3}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Gun_Armor.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E8292781332BBE1}" {
+     SourceMaterial "m113_turret"
+     AssignedMaterial "{B0E10E3BD5D426CC}Assets/Vehicles/Tracked/M113/Data/MERDC/m113_turret_MERDC.emat"
+    }
+   }
+  }
+ }
+}

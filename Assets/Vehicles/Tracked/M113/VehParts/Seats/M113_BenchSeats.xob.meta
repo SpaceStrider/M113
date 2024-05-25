@@ -1,0 +1,115 @@
+MetaFileClass {
+ Name "{5933D1D50C691584}Assets/Vehicles/Tracked/M113/VehParts/Seats/M113_BenchSeats.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{5E825678068F20EB}" {
+     SourceMaterial "M113_base_interior_Components_3"
+     AssignedMaterial "{1A7D776843242FB4}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_3.emat"
+    }
+    MaterialAssignClass "{5E825678068F2107}" {
+     SourceMaterial "M113_base_interior_Components_1"
+     AssignedMaterial "{EE7530F04EF947C0}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_2.emat"
+    }
+    MaterialAssignClass "{5E825678068F2100}" {
+     SourceMaterial "M113_base_interior_Components_2"
+     AssignedMaterial "{B09D19B3F174C9CF}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam BenchA01 {
+    }
+    MeshParam BenchA02 {
+    }
+    MeshParam BenchA03 {
+    }
+    MeshParam BenchA04 {
+    }
+    MeshParam BenchA05 {
+    }
+    MeshParam BenchA06 {
+    }
+    MeshParam BenchB02 {
+    }
+    MeshParam BenchB03 {
+    }
+    MeshParam "BenchB03.001" {
+    }
+    MeshParam BenchB04 {
+    }
+    MeshParam BenchB05 {
+    }
+    MeshParam BenchB06 {
+    }
+    MeshParam Cylinder03 {
+    }
+    MeshParam Cylinder600 {
+    }
+    MeshParam Cylinder611 {
+    }
+    MeshParam Cylinder612 {
+    }
+    MeshParam Foam01 {
+    }
+    MeshParam Foam03 {
+    }
+    MeshParam Foam04 {
+    }
+    MeshParam Foam05 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Foam01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D9FC388632D4ECC8}Common/Materials/Game/Fabric/fabric_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Foam03 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D9FC388632D4ECC8}Common/Materials/Game/Fabric/fabric_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Foam04 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D9FC388632D4ECC8}Common/Materials/Game/Fabric/fabric_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Foam05 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D9FC388632D4ECC8}Common/Materials/Game/Fabric/fabric_1mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E825678069118E7}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E825678069119A0}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E825678069119D9}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E82567806911A05}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E82567806911A1F}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

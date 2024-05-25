@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{4C681B13D3A86293}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Wheels/M113_wheel_base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

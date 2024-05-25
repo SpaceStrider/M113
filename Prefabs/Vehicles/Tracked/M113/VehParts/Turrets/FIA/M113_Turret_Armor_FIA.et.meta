@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{AA4AC8081E00414F}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_Armor_FIA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

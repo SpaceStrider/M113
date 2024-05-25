@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{78BA70B27E9E269E}Assets/Vehicles/Tracked/M113/VehParts/Tracks/Data/m113_chassis.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

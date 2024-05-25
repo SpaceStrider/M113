@@ -1,0 +1,143 @@
+ProcAnimSignalResClass {
+ Inputs {
+  IOPItemInputClass {
+   id 2
+   name "TurretBaseRotation"
+   tl -559 52
+   children {
+    1 5 9
+   }
+   valueMin -720
+   valueMax 720
+  }
+  IOPInputValueClass {
+   id 6
+   name "Value 6"
+   tl -471 312
+   children {
+    5
+   }
+   value -1
+  }
+  IOPInputValueClass {
+   id 11
+   name "Value 11"
+   tl -590 -156.667
+   children {
+    9
+   }
+   value 0.01
+  }
+ }
+ Ops {
+  IOPItemOpMulClass {
+   id 5
+   name "Negate"
+   tl -248 210
+   children {
+    7
+   }
+   inputs {
+    ConnectionClass connection {
+     id 6
+     port 0
+    }
+    ConnectionClass connection {
+     id 2
+     port 0
+    }
+   }
+  }
+  IOPItemOpMulClass {
+   id 9
+   name "Mul 9"
+   tl -338.889 -105.556
+   children {
+    8
+   }
+   inputs {
+    ConnectionClass connection {
+     id 2
+     port 0
+    }
+    ConnectionClass connection {
+     id 11
+     port 0
+    }
+   }
+  }
+ }
+ Outputs {
+  IOPItemOutputClass {
+   id 1
+   name "Rotation"
+   tl -83 18
+   input 2
+  }
+  IOPItemOutputClass {
+   id 7
+   name "CounterRotation"
+   tl -35 197
+   input 5
+  }
+  IOPItemOutputClass {
+   id 8
+   name "HatchMovement"
+   tl -106.667 -112.222
+   input 9
+  }
+ }
+ compiled IOPCompiledClass {
+  visited {
+   261 133 5 139 262 11 134 6
+  }
+  ins {
+   IOPCompiledIn {
+    data {
+     3 2 3 65539
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 3
+    }
+   }
+   IOPCompiledIn {
+    data {
+     1 65539
+    }
+   }
+  }
+  ops {
+   IOPCompiledOp {
+    data {
+     1 65538 4 65536 0 0 0
+    }
+   }
+   IOPCompiledOp {
+    data {
+     1 131074 4 0 0 131072 0
+    }
+   }
+  }
+  outs {
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+   IOPCompiledOut {
+    data {
+     0
+    }
+   }
+  }
+  processed 8
+  version 2
+ }
+}

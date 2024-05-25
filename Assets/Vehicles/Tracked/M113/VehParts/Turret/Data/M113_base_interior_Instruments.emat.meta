@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{C8D726333CF3F093}Assets/Vehicles/Tracked/M113/VehParts/Turret/Data/M113_base_interior_Instruments.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

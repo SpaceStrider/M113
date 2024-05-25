@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{29FB8893F52B807B}Prefabs/Vehicles/Tracked/M113/M113_APC_Armored_FIA.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

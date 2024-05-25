@@ -1,0 +1,456 @@
+MetaFileClass {
+ Name "{58AB0D3F6CBD4AD7}Assets/Vehicles/Tracked/M113/M113_Base.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{5E78762D0B130B90}" {
+     SourceMaterial "m113_hull"
+     AssignedMaterial "{2470BEF7BB50B110}Assets/Vehicles/Tracked/M113/Data/m113_hull.emat"
+    }
+    MaterialAssignClass "{5E78762D0B130BAA}" {
+     SourceMaterial "m113_chassis"
+     AssignedMaterial "{2B5ADB78A9D3031B}Assets/Vehicles/Tracked/M113/Data/m113_chassis.emat"
+    }
+    MaterialAssignClass "{5E78762D0B130BB7}" {
+     SourceMaterial "M113_base_interior_Components_1"
+     AssignedMaterial "{B09D19B3F174C9CF}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_1.emat"
+    }
+    MaterialAssignClass "{5E7CC6226EC4ACD8}" {
+     SourceMaterial "M113_base_interior_Glass"
+     AssignedMaterial "{6F34D7A13A91D158}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Glass.emat"
+    }
+    MaterialAssignClass "{5E82567B22FDCBCC}" {
+     SourceMaterial "m113_tracks_flat_R"
+     AssignedMaterial "{7CFF0939E9C90D10}Assets/Vehicles/Tracked/M113/Data/m113_tracks_flat_R.emat"
+    }
+    MaterialAssignClass "{5E7CC6226EC4ACDE}" {
+     SourceMaterial "M113_base_interior_Instruments"
+     AssignedMaterial "{DC392FB2CCCFE9B3}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Instruments.emat"
+    }
+    MaterialAssignClass "{5E7CC6226EC4ACC1}" {
+     SourceMaterial "M113_base_interior_Components_3"
+     AssignedMaterial "{1A7D776843242FB4}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_3.emat"
+    }
+    MaterialAssignClass "{5E7CC6226EC4ACD1}" {
+     SourceMaterial "M113_base_interior_Components_2"
+     AssignedMaterial "{EE7530F04EF947C0}Assets/Vehicles/Tracked/M113/Data/M113_base_interior_Components_2.emat"
+    }
+    MaterialAssignClass "{5E7CC6226EC4ACD2}" {
+     SourceMaterial "M113_base_exterior_Body"
+     AssignedMaterial "{45ED9A1BFFCD1921}Assets/Vehicles/Tracked/M113/Data/M113_base_exterior_Body.emat"
+    }
+    MaterialAssignClass "{5E82567B22FDCBB5}" {
+     SourceMaterial "m113_tracks_flat_L"
+     AssignedMaterial "{B38FD274396A0C50}Assets/Vehicles/Tracked/M113/Data/m113_tracks_flat_L.emat"
+    }
+   }
+   MeshParams {
+    MeshParam hatch_cargo {
+    }
+    MeshParam hatch_drvers {
+    }
+    MeshParam hatch_engine {
+    }
+    MeshParam hull_body {
+    }
+    MeshParam ramp {
+    }
+    MeshParam ramp_door {
+    }
+    MeshParam shovel {
+    }
+    MeshParam wheel_drive_01 {
+    }
+    MeshParam wheel_drive_02 {
+    }
+    MeshParam wheel_idler_01 {
+    }
+    MeshParam wheel_idler_02 {
+    }
+    MeshParam "Back Rest" {
+    }
+    MeshParam Battery {
+    }
+    MeshParam Belt01 {
+    }
+    MeshParam CO2 {
+    }
+    MeshParam "Clips Interior01" {
+    }
+    MeshParam "Clips Interior02" {
+    }
+    MeshParam Cylinder11 {
+    }
+    MeshParam Cylinder625 {
+    }
+    MeshParam Detonator {
+    }
+    MeshParam "Door Handle04" {
+    }
+    MeshParam "Drivers Periscope01" {
+    }
+    MeshParam Drivers2 {
+    }
+    MeshParam Drivers3 {
+    }
+    MeshParam EngPaLock01 {
+    }
+    MeshParam EngPaLock02 {
+    }
+    MeshParam FKickBoard {
+    }
+    MeshParam "Fire extinguisher01" {
+    }
+    MeshParam "Fire extinguisher02" {
+    }
+    MeshParam Flooring_01 {
+    }
+    MeshParam FlrB2_01 {
+    }
+    MeshParam FlrBolt {
+    }
+    MeshParam "Gas Tank01" {
+    }
+    MeshParam Instrument1 {
+    }
+    MeshParam Instrument1b {
+    }
+    MeshParam "Inte Detail1" {
+    }
+    MeshParam "Inte Detail2" {
+    }
+    MeshParam "Internal Light" {
+    }
+    MeshParam "Internal Light01" {
+    }
+    MeshParam JumpSeat05 {
+    }
+    MeshParam Monitor_01 {
+    }
+    MeshParam Monitor_02 {
+    }
+    MeshParam Muffler01 {
+    }
+    MeshParam Panel01 {
+    }
+    MeshParam Panel02 {
+    }
+    MeshParam Pedal {
+    }
+    MeshParam Pedal01 {
+    }
+    MeshParam "Periscope Guard" {
+    }
+    MeshParam Post6 {
+    }
+    MeshParam Raise2 {
+    }
+    MeshParam "Ramp Mech" {
+    }
+    MeshParam "Roof box" {
+    }
+    MeshParam "Roof door" {
+    }
+    MeshParam RoofMech_1 {
+    }
+    MeshParam RoofMech_2 {
+    }
+    MeshParam RoofMech_4 {
+    }
+    MeshParam Shelf1 {
+    }
+    MeshParam Stick01 {
+    }
+    MeshParam Stick02 {
+    }
+    MeshParam Stick03 {
+    }
+    MeshParam "Stick03.001" {
+    }
+    MeshParam Stick04 {
+    }
+    MeshParam "Stick04.001" {
+    }
+    MeshParam Stick05 {
+    }
+    MeshParam Throtle {
+    }
+    MeshParam "console box" {
+    }
+    MeshParam drivers {
+    }
+    MeshParam "hull_body.001" {
+    }
+    MeshParam m113_tracks_flat_left {
+    }
+    MeshParam m113_tracks_flat_right {
+    }
+    MeshParam absorber_01_01 {
+    }
+    MeshParam absorber_01_02 {
+    }
+    MeshParam absorber_02_01 {
+    }
+    MeshParam absorber_02_02 {
+    }
+    MeshParam absorber_03_01 {
+    }
+    MeshParam absorber_03_02 {
+    }
+    MeshParam absorber_04_01 {
+    }
+    MeshParam absorber_04_02 {
+    }
+    MeshParam absorber_05_01 {
+    }
+    MeshParam absorber_05_02 {
+    }
+    MeshParam absorber_06_01 {
+    }
+    MeshParam absorber_06_02 {
+    }
+    MeshParam arm_01 {
+    }
+    MeshParam arm_02 {
+    }
+    MeshParam arm_03 {
+    }
+    MeshParam arm_04 {
+    }
+    MeshParam arm_05 {
+    }
+    MeshParam arm_06 {
+    }
+    MeshParam arm_07 {
+    }
+    MeshParam arm_08 {
+    }
+    MeshParam arm_09 {
+    }
+    MeshParam arm_10 {
+    }
+    MeshParam arm_11 {
+    }
+    MeshParam arm_12 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UBX_MineGeo_L {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UBX_MineGeo_R {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{C3691F2D8FE0234F}Common/Materials/Game/dirt.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Engine_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{0B9EB7B9C8DCC6A5}Common/Materials/Game/VehicleParts/engine.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_GasTank_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{2E934203697527B6}Common/Materials/Game/VehicleParts/fuel_tank.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_m113_tracks_flat_left {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_m113_tracks_flat_right {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Radiator_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_Ramp {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UCX_VC_hull_body {
+     LayerPreset "VehicleSimple"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hatch_cargo {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hatch_drvers {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_hatch_engine {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Hull_Body {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{87237C809110D351}Common/Materials/Game/Armor/armor_14mm.gamemat"
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_m113_tracks_flat_left {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{87237C809110D351}Common/Materials/Game/Armor/armor_14mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_m113_tracks_flat_right {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{87237C809110D351}Common/Materials/Game/Armor/armor_14mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_ramp {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+      "{1950188BB10D20EA}Common/Materials/Game/Metal/metal_5mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_ramp_door {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{D36B33C77CCC1F0F}Common/Materials/Game/Armor/armor_12mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_shovel {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{EDB153DC99889624}Common/Materials/Game/Metal/metal_3mm.gamemat"
+      "{9390521CB97A91B5}Common/Materials/Game/Wood/wood_15mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Transmission_01 {
+     LayerPreset "FireGeo"
+     SurfaceProperties {
+      "{427C6C77966E41CB}Common/Materials/Game/VehicleParts/differential.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_VC_hull_body {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{D3A4A761377F28DE}Common/Materials/Game/VehicleParts/vehicle_body.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_drive_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_drive_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_idler_01 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_wheel_idler_02 {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5F9012D836479B1A}Common/Materials/Game/Armor/armor_10mm.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{5E78762D04965B84}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{5E78762D04964ECB}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{5E78762D04964F56}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{5E78762D04964F98}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{5E78762D04964FDF}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

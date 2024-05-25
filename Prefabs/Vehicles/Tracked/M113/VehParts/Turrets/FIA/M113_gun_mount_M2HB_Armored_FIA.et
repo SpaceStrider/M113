@@ -1,0 +1,23 @@
+Turret : "{75CD41C2C73548B9}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_gun_mount_M2HB_Armored.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5E82926EDF5482B2}" {
+     SourceMaterial "m113_turret"
+     AssignedMaterial "{C20CFB5D807B1C57}Assets/Vehicles/Tracked/M113/Data/FIA/m113_turret_FIA.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{5E825E019592F84B}" {
+   Slots {
+    RegisteringComponentSlotInfo Armor {
+     Prefab "{AA4AC8081E00414F}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/FIA/M113_Turret_Armor_FIA.et"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{CBA3AC3960FFB24F}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M113_Armored_FIA.et"
+  }
+ }
+}

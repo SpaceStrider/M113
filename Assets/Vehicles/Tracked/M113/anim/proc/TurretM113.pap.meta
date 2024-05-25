@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{5B4FC51DCA852CE4}Assets/Vehicles/Tracked/M113/anim/proc/TurretM113.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

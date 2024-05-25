@@ -1,0 +1,214 @@
+Tank : "{595DBA9E00CC7454}Prefabs/Vehicles/Tracked/M113/M113_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  BaseRadioComponent "{61096AC122B55971}" {
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   CompartmentSlots {
+    SCR_PatientCompartmentSlot Passenger_L01 : "{54180ECE629BA584}Prefabs/Vehicles/Tracked/M113/Configs/M113CargoCompartment.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_L03"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_L03"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_L03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "Patient_L"
+     }
+     SeatType 2
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Patient"
+     }
+    }
+    SCR_PatientCompartmentSlot Passenger_R01 : "{54180ECE629BA584}Prefabs/Vehicles/Tracked/M113/Configs/M113CargoCompartment.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "passenger_R03"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "passenger_R03"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "passenger_R03"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "Patient_R"
+     }
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Patient"
+     }
+    }
+    SCR_DoctorCompartmentSlot Doctor : "{54180ECE629BA584}Prefabs/Vehicles/Tracked/M113/Configs/M113CargoCompartment.conf" {
+     CompartmentAction SCR_GetInUserAction "{5086CC2FCCAA457D}" {
+      ParentContextList {
+       "medic_idle"
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D56665850650D}" {
+      ParentContextList {
+       "medic_idle"
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D528255CC646B68}" {
+       ParentContextList {
+        "medic_idle"
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      PivotID "medic_idle"
+     }
+     SeatType 4
+     UIInfo UIInfo "{50870A10CE897250}" {
+      Name "#AR-VehiclePosition_Doctor"
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#M113-EditableEntity_M113_MEV_Name"
+    Icon "{71DF78365A62B6DE}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad_Medical.edds"
+    m_Image "UI/Textures/EditorPreviews/Vehicles/Tracked/M113/M113_MEV.edds"
+    m_aAuthoredLabels {
+     3 20 24 200 1001 36
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 250
+     }
+     SCR_EntityBudgetValue "{60F2B002D5BB3CD3}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+    m_aOccupantFillCompartmentTypes {
+     1
+    }
+    m_aCrewEntityBudgetCost {
+     SCR_EntityBudgetValue "{5E78B2EECD014AA9}" {
+      m_BudgetType AI
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_HealSupportStationComponent "{61096AC0869671C0}" {
+   m_bIsVehicle 1
+   m_bAllowGetFactionFromParent 1
+   m_sOnUseSoundEffectFile "{7BACA57AF41F033D}Sounds/SupportStations/SupportStations_Character.acp"
+   m_sOnUseSoundEffectEventName "SOUND_HEAL_DONE"
+   m_sCharacterVoiceEventOnUse "SOUND_VOICE_PAIN_RELIEVE_DELAY"
+   m_sOnHealUpdateSoundEffectEventName "SOUND_HEAL_PARTIAL"
+   m_sOnHealBloodUpdateSoundEffectEventName "SOUND_HEAL_PARTIAL"
+   m_eSupportStationPriority MEDIUM
+   m_eFactionUsageCheck 3
+   m_iDamageHealedEachExecution 100
+   m_iSupplyCostDamageHealed 1
+   m_eMaxHealDone HEAL_MAX_HEALABLE_HEALTH_REACHED_FIELD
+   m_iBloodHealedEachExecute 500
+  }
+  SCR_LoadCasualtySupportStationComponent "{61096AC0BDBFAC37}" {
+   m_bIsVehicle 1
+   m_bSendNotificationOnUse 0
+   m_eSupportStationPriority MEDIUM
+   m_fRange 7.5
+   m_vOffset 0 0 0
+   m_eFactionUsageCheck 3
+   m_sOverrideUserActionName "#AR-UserAction_LoadCasualtyInAmbulance"
+  }
+  SCR_ResourceComponent "{61096AC6BCE9ECE7}" {
+   m_aEncapsulators {
+    SCR_ResourceEncapsulator "{61096AC696E1D9BA}" {
+     m_aActions {
+      SCR_ResourceEncapsulatorActionChangeResourceValue "{5DDCCC74444F5586}" {
+       m_fResourceValueCurrent 40
+      }
+     }
+    }
+   }
+   m_aConsumers {
+    SCR_ResourceConsumer "{61096AC45FAA968A}" : "{2AAF7114BB83B5E8}Configs/Resources/Supplies/Consumers/Generic/Consumer_Vehicle.conf" {
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E78B2EECD014A90}" {
+   Attributes SCR_ItemAttributeCollection "{5E78B2EECD014A91}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5E78B2EECD014A92}" {
+     m_aItemHints {
+      SCR_SupplyAvailableItemHintUIInfo "{61096AC476FAD138}" : "{B7797523D7C78623}Configs/Inventory/ItemHints/SupplyAvailable_ItemHint.conf" {
+      }
+     }
+    }
+   }
+   MultiSlots {
+    MultiSlotConfiguration "{5E78B2EECD014A85}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{61096ACAF0355FA8}" {
+     SlotTemplate InventoryStorageSlot Meds {
+      Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+    MultiSlotConfiguration "{61096ACAF7454A41}" {
+     SlotTemplate InventoryStorageSlot Saline {
+      Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     }
+    }
+    MultiSlotConfiguration "{61096ACAF701D990}" {
+     SlotTemplate InventoryStorageSlot morphine {
+      Prefab "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et"
+     }
+    }
+    MultiSlotConfiguration "{61096ACAF7DCB6AA}" {
+     SlotTemplate InventoryStorageSlot medkit {
+      Prefab "{AE578EEA4244D41F}Prefabs/Items/Equipment/Kits/MedicalKit_01/MedicalKit_01_US.et"
+     }
+    }
+   }
+   m_fMaxWeight 600
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{FD080A1AA80B73BC}Prefabs/Vehicles/Tracked/M113/VehParts/Turrets/M113_Turret_unarmed.et"
+    }
+    RegisteringComponentSlotInfo HullDecal {
+     Prefab "{2D78DBA42CBC35E9}Prefabs/Vehicles/Tracked/M113/M113_RedCross_decal.et"
+    }
+    RegisteringComponentSlotInfo BenchSeats {
+     Prefab "{54A7F0786970CF01}Prefabs/Vehicles/Tracked/M113/VehParts/Seats/M113_MedicalBeds.et"
+    }
+    RegisteringComponentSlotInfo CommanderSeat {
+     Offset 0 0 0.95
+     Prefab "{5C9925DD8E5023EC}Prefabs/Vehicles/Tracked/M113/VehParts/Seats/M113_CommanderSeat.et"
+    }
+   }
+  }
+  VehicleAnimationComponent "{50B803EAA459B0AF}" {
+   AnimInjection AnimationAttachmentInfo "{50B803EA8AD25BC8}" {
+    AnimGraph "{F69E99A97BC62086}Assets/Vehicles/Wheeled/M998/workspaces/M997.agr"
+    AnimInstance "{3E1B9F266F041170}Assets/Vehicles/Wheeled/M998/workspaces/M997_player.asi"
+   }
+  }
+ }
+}
