@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6B8A9DAC6634E291}Prefabs/Vehicles/Wheeled/BTR70/VehParts/M113_FIA_CoatOfArms_decal.et"
+ Name "{6B8A9DAC6634E291}Prefabs/Vehicles/Tracked/M113/M113_FIA_CoatOfArms_decal.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
  }
 }
