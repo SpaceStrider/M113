@@ -54,6 +54,9 @@ Tank : "{85BCD705E465A5DC}Prefabs/Vehicles/Tracked/M113/M113_MEV.et" {
      Prefab "{F2CA45B09B494D42}Prefabs/Vehicles/Tracked/M113/VehParts/Armor/M113_TrackCover_06.et"
      RegisterDamage 1
     }
+    RegisteringComponentSlotInfo Arsenal {
+     Prefab "{65F17676960CBF58}Prefabs/Vehicles/Core/VirtualSlots/Ambulance_VirtualArsenalSlot.et"
+    }
    }
   }
   VehicleAnimationComponent "{50B803EAA459B0AF}" {
