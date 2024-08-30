@@ -290,7 +290,7 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
     SCR_ResourceContainer "{61096AC6325F3F58}" {
      m_eResourceRights FACTION
      m_eStorageType CARGO_VEHICLE
-     m_fResourceValueMax 160
+     m_fResourceValueMax 0
     }
    }
    m_aEncapsulators {
@@ -957,6 +957,63 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
       Angles 0 -90 0
      }
     }
+    EntitySlotInfo SupplyStorage_01 {
+     PivotID "Root"
+     Offset 1.2521 1.2786 -0.6261
+     Angles -90 -90 0
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_02 {
+     PivotID "Root"
+     Offset 1.2521 1.2786 0.1936
+     Angles -90 -90 0
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_03 {
+     PivotID "Root"
+     Offset -1.2971 1.2786 -0.175
+     Angles -90 90 0
+     MergePhysics 1
+     Prefab "{11E588E215EBCF23}Prefabs/Props/Military/SupplyBox/SupplyCrate/SupplyCrate_01/SupplyCrate_01_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     PivotID "Root"
+     Offset -1.1414 1.0383 0.3947
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_05 {
+     PivotID "Root"
+     Offset -1.1414 1.0383 0.7235
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_06 {
+     PivotID "Root"
+     Offset -1.1414 1.336 0.3947
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_07 {
+     PivotID "Root"
+     Offset -1.1414 1.336 0.7235
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_08 {
+     PivotID "Root"
+     Offset -1.1414 1.7224 0.3947
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
+    EntitySlotInfo SupplyStorage_09 {
+     PivotID "Root"
+     Offset -1.1414 1.7224 0.7235
+     MergePhysics 1
+     Prefab "{2E10FD09B66A44FF}Prefabs/Props/Military/SupplyBox/SupplyPortableContainers/SupplyPortableContainer_01/SupplyPortableContainers_01_large_Vehicle.et"
+    }
    }
   }
   ActionsManagerComponent "{C97BE5489221AE18}" {
@@ -1111,6 +1168,24 @@ Tank : "{8A883ABED22B6E27}Prefabs/Vehicles/Core/Tracked_Base.et" {
      m_sActionCanceledSoundEvent "SOUND_HATCH_LEFT_ACTION_CANCEL"
      m_sMovementSoundEvent "SOUND_HATCH_LEFT_CHANGE_POSITION"
      m_sMovementStopSoundEvent "SOUND_HATCH_LEFT_MOVEMENT_STOP"
+    }
+    SCR_ResourceContainerVehicleLoadAction "{5DAD7519D5DCEEC7}" : "{A0E53319BFA4E848}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Load.conf" {
+     ParentContextList {
+      "BackRamp"
+     }
+     UIInfo UIInfo "{5F06BE4BEDF907BE}" {
+      Name "#AR-Supplies_Vehicle_Load"
+      Description "#AR-Supplies_Vehicle_Load_Long"
+     }
+    }
+    SCR_ResourceContainerVehicleUnloadAction "{5DAD7519C925851B}" : "{F10C4B3E2E87F15B}Configs/Resources/Supplies/Actions/Supplies_Vehicle_Unload.conf" {
+     ParentContextList {
+      "BackRamp"
+     }
+     UIInfo UIInfo "{5F06BE4BEDF907BC}" {
+      Name "#AR-Supplies_Vehicle_Unload"
+      Description "#AR-Supplies_Vehicle_Unload_Long"
+     }
     }
    }
   }
