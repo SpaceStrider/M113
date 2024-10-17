@@ -1,6 +1,8 @@
 Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
- ID "51ACD0965653D003"
+ ID "0000000000000001"
  components {
+  ControllersManagerComponent "{61D5140965DFD30F}" {
+  }
   EventHandlerManagerComponent "{551EC6A46DA1232A}" {
    EventHandlers {
     BaseEventHandler "{5E78B2EE5208994B}" {
@@ -17,6 +19,8 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    LimitsHoriz -20 20
    LimitsVert -25 33
    TurretReloadPosition 500 33
+  }
+  SignalsManagerComponent "{61D51405C5A57850}" {
   }
   SoundComponent "{5E78B2EE520899B7}" {
    Filenames {
@@ -79,129 +83,12 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      }
      ForcedFreeLook 0
      DoorInfoList {
-      CompartmentDoorInfo "{50B917CA9C90BD91}" {
-       ContextName "default"
-       EntryPositionInfo PointInfo "{50B917CA96E757AA}" {
-        Offset 0 3 0
-       }
-       ExitPositionInfo PointInfo "{5E78B2EE520899A4}" {
-        Offset 0 3 0
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-       EntryPositionAligning 1
-       SeatPositionAligning 1
-      }
-      CompartmentDoorInfo "{5E78B2EE520899A9}" {
-       ContextName "door_l01"
-       EntryPositionInfo PointInfo "{5E78B2EE520899AE}" {
-        Offset 0 3 0
-       }
-       ExitPositionInfo PointInfo "{5E78B2EE520899AF}" {
-        Offset 0 3 0
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-       EntryPositionAligning 1
-       SeatPositionAligning 1
-      }
-      CompartmentDoorInfo "{5E78B2EE52089991}" {
-       ContextName "door_l02"
-       EntryPositionInfo PointInfo "{5E78B2EE5208B066}" {
-        Offset 0 3 0
-       }
-       ExitPositionInfo PointInfo "{5E78B2EE5208B060}" {
-        Offset 0 3 0
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-       EntryPositionAligning 1
-       SeatPositionAligning 1
-      }
-      CompartmentDoorInfo "{5E78B2EE5208B063}" {
-       ContextName "door_r01"
-       EntryPositionInfo PointInfo "{5E78B2EE52084CF7}" {
-        Offset 0 3 0
-       }
-       ExitPositionInfo PointInfo "{5E78B2EE52084CF6}" {
-        Offset 0 3 0
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-       EntryPositionAligning 1
-       SeatPositionAligning 1
-      }
-      CompartmentDoorInfo "{5E78B2EE52084CF9}" {
-       ContextName "door_r02"
-       EntryPositionInfo PointInfo "{5E78B2EE52082C0E}" {
-        Offset 0 3 0
-       }
-       ExitPositionInfo PointInfo "{5E78B2EE52082C0F}" {
-        Offset 0 3 0
-       }
-       GetInTeleport 1
-       GetOutTeleport 1
-       EntryPositionAligning 1
-      }
-     }
-     AccessibilitySettings CompartmentAccessibilityContext "{5E78B2EE52082C0C}" {
-     }
-     AllowAiming 1
-     m_DefaultOccupantData SCR_DefaultOccupantData "{5E78B2EE52082C0B}" {
-      m_sDefaultOccupantPrefab "{26A9756790131354}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+      0 0
      }
     }
    }
   }
-  SCR_BaseHUDComponent "{51ACD09C5E194510}" {
-   InfoDisplays {
-    SCR_WeaponInfoVehicle "{5194B831C2F89FB5}" {
-    }
-   }
-  }
-  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
-   m_fHeight 0.5
-   m_fDist_Max 5.4
-   m_fDist_Min 1.5
-   m_fDist_Desired 4.5
-  }
-  UniversalInventoryStorageComponent "{5E78B2EE52082C17}" {
-   Enabled 0
-   UseCapacityCoefficient 0
-  }
-  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
-   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
-    Offset 0 0.0648 0
-   }
-  }
-  SCR_TurretInventoryStorageManagerComponent "{5E78B2EE52082C13}" {
-   Enabled 0
-  }
-  ActionsManagerComponent "{51ACD09C7181BA0B}" {
-   ActionContexts {
-    UserActionContext "{51ACFBB064390C6E}" {
-     Position PointInfo "{51ACFBB061993925}" {
-      PivotID "gunner_idle"
-      Offset 0 0.1 0
-     }
-     Radius 0.4
-    }
-    UserActionContext "{5E78B2EE52082C1E}" {
-     ContextName "gunner"
-     Position PointInfo "{5E78B2EE5209EF17}" {
-      PivotID "v_turret_01"
-      Offset 0 0.2 0
-     }
-     Radius 0.6
-    }
-   }
-   AllowCrossHierarchy 1
-  }
-  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
-   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
-    AnimGraph "{6791BE2144ADC6A3}Assets/Weapons/HeavyWeapons/workspaces/M2HB_m998.agr"
-    AnimInstance "{6C73754244FE9C94}Assets/Weapons/HeavyWeapons/workspaces/M2HB_Player_m998.asi"
-   }
+  RplComponent "{61D51405C3B30CC1}" {
   }
  }
 }

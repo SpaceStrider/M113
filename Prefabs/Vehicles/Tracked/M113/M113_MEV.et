@@ -211,4 +211,5 @@ Tank : "{595DBA9E00CC7454}Prefabs/Vehicles/Tracked/M113/M113_base.et" {
    }
   }
  }
+ coords 0 0 0
 }

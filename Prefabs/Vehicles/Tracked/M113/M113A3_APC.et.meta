@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113_Armored.et"
+ Name "{0A41E8DF1F680496}Prefabs/Vehicles/Tracked/M113/M113A3_APC.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -10,6 +10,8 @@ MetaFileClass {
   EntityTemplateResourceClass PS4 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
   }
  }
 }
